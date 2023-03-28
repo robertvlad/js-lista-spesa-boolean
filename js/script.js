@@ -13,7 +13,7 @@ let list_container = document.querySelector('.shopping-list');
 
 let i = 0;
 
-while (i < list.length - 1) {
+while (i < list.length) {
 
     let li = document.createElement('li');
     let item_list = list[i];
