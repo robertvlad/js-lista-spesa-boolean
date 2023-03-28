@@ -11,10 +11,14 @@ const list = [
 
 let list_container = document.querySelector('.shopping-list');
 
-for (let i = 0; i < list.length; i++) {
-    
-    const li = document.createElement('li');
-    li.innerText = list[i];  
-    console.log(li);
-    list_container.appendChild(li)
-}
+let i = 0;
+
+while (i < list.length - 1) {
+
+    let li = document.createElement('li');
+    let item_list = list[i];
+    li.innerText = item_list;
+    list_container.appendChild(li);
+
+    i++;
+};
