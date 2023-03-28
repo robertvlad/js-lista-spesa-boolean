@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 3rem auto;
+}
+
+.shopping-list {
+    padding: 0px;
+    list-style-type: none;
+}
